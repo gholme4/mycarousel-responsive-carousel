@@ -17,21 +17,21 @@ For the best experience make sure the number of images you have in the carousel 
 
 ## Properties
 
-### numberVisibleItems: *integer* default:5
+### numberVisibleItems: *integer* - default:5
 `numberVisibleItems` determines how many images will be visible in the carousel at a time.
 
-### animationSpeed: *integer* default:3000
+### animationSpeed: *integer* - default:500
 `animationSpeed` determines the amount of time (milliseconds) that passes during one slide transition.
 
-### carouselSpeed: *integer*
-`carouselSpeed` determines the amount of time between slide transitions.
+### carouselSpeed: *integer* - default:3000
+`carouselSpeed` determines the amount of time (milliseconds) between slide transitions.
 
-### automaticPlay: *boolean*
+### automaticPlay: *boolean* - default:true
 `automaticPlay` if true will cause the carousel to play continuously without user interaction.
 
-### pauseOnHover: *boolean*
+### pauseOnHover: *boolean* - default:true
 `pauseOnHover` if true will cause the carousel to stop playing when the mouse hovers over in image in the carousel.
 
-### easing: "swing"
-`easing` controls how the sliding animation progresses over time by manipulating its acceleration
+### easing: *string* - default:swing
+`easing` controls how the sliding animation progresses over time by manipulating its acceleration. Take a look at [jQuery easing](http://jqueryui.com/demos/effect/easing.html) for all possible values for this option.
 
