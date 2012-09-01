@@ -13,7 +13,7 @@ This is a jQuery plugin used to create a responsive infinite image carousel.
 [George Holmes II](http://georgeholmesii.com/)
 
 ## General Notes
-For the best experience make sure the number of images you have in the carousel is at least two more than the number you have set for `numberVisibleItems`. If you would like to improve this code or have any suggestions let me know. Thanks.
+This plugin is dependent on the jQuery library and the jQuery UI library. For the best experience make sure the number of images you have in the carousel is at least two more than the number you have set for `numberVisibleItems`. If you would like to improve this code or have any suggestions let me know. Thanks.
 
 ## Properties
 
